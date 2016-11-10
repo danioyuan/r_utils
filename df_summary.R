@@ -71,6 +71,4 @@ DataframeSummaryPlot <- function(df, pdfFile) {
   dev.off()
 }
 
-# setwd("/Users/yuan/Desktop/Mindy")
-# load("all_data_20130222.RData")
-# DataframeSummaryPlot(admin, "summary.pdf")
+# DataframeSummaryPlot(df, "summary.pdf")
